@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="App.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Spotify Clone</h1>
+        <div class="player">
+            <div class="track-info">
+                <h2 id="track-title">Track Title</h2>
+                <p id="artist-name">Artist Name</p>
+            </div>
+            <audio id="audio-player" controls>
+                <source src="C:\Users\praga\Music\JAWAN__Chaleya_.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+            <div class="controls">
+                <button id="prev">Previous</button>
+                <button id="play">Play</button>
+                <button id="pause">Pause</button>
+                <button id="next">Next</button>
+            </div>
+        </div>
+        <ul id="track-list">
+            <li data-src="C:\Users\praga\Music\JAWAN__Chaleya_.mp3" data-title="Chaleya" data-artist="Arjit Singh">Chaleya - Arjit Singh</li>
+            <li data-src="C:\Users\praga\Music\Ve_Haaniyaan.mp3" data-title="Ve Haaniyaan" data-artist="Jubin Nautiyal">Ve Haaniyaan - Jubin Nautiyal</li>
+            <li data-src="C:\Users\praga\Music\Zingaat.mp3" data-title="Zingaat" data-artist="Ajay-Atul">Zingaat - Ajay-Atul</li>
+        </ul>
+    </div>
+    <script src="App.js"></script>
+</body>
+</html>
